@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+                           http://www.springframework.org/schema/beans/spring-beans-4.1.xsd"> 
+    
+    <!-- beans -->
+    <bean id="genericMessage" class="model.beans.GenericMessage"></bean>
+      
+    <!-- components -->
+    <bean id="testBeanComponent" class="model.components.TestBeanComponent"></bean>    
+    <bean id="opportunityComponent" class="model.components.OpportunityComponent"></bean>    
+    <bean id="stageComponent" class="model.components.StageComponent"></bean>    
+    
+</beans>

@@ -1,0 +1,7 @@
+TestBean 
+
+/api-ngo/v1/testBean            POST       create new
+/api-ngo/v1/testBean/1          GET        return json 
+/api-ngo/v1/testBean            PUT        update object
+/api-ngo/v1/testBean/1          DELETE     delete resource
+/api-ngo/v1/testBean/list       GET        return jsonarray
