@@ -6,7 +6,7 @@
         <property name="hibernate.connection.characterEncoding">UTF-8</property>
         <property name="hibernate.connection.useUnicode">true</property>
         <property name="hibernate.current_session_context_class">thread</property>        
-        <property name="hibernate.connection.url">jdbc:sqlite:/home/skuarch/Desktop/api-ngo.db</property>
+        <property name="hibernate.connection.url">jdbc:sqlite:/home/skuarch/NetBeansProjects/api-ngo/api-ngo.db</property>
         <property name="hibernate.connection.driver_class">org.sqlite.JDBC</property>
         <property name="hibernate.dialect">model.database.SQLiteDialect</property>
         

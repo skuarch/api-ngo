@@ -171,6 +171,7 @@ public class SQLiteDialect extends Dialect {
         return true;
     }
 
+    @Override
     public boolean supportsCascadeDelete() {
         return false;
     }

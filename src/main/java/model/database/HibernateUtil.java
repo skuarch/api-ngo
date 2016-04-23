@@ -15,8 +15,6 @@ class HibernateUtil {
 
     private static final Logger logger = Logger.getLogger(HibernateUtil.class);
     private static SessionFactory sessionFactory = null;
-    private static ServiceRegistry serviceRegistry = null;
-    private static StandardServiceRegistryBuilder serviceRegistryBuilder = null;
 
     //==========================================================================
     static {
@@ -26,6 +24,8 @@ class HibernateUtil {
         configuration.setInterceptor(new Hibernate());
         configuration.setProperty(AvailableSettings.ORDER_UPDATES, "true");                    
         configuration.configure();
+        StandardServiceRegistryBuilder serviceRegistryBuilder;
+        ServiceRegistry serviceRegistry;
 
         serviceRegistryBuilder = new StandardServiceRegistryBuilder().applySettings(configuration.getProperties());
         serviceRegistry = serviceRegistryBuilder.build();

@@ -214,7 +214,7 @@ public class HibernateConnection {
             throw new NullPointerException("c is null");
         }
 
-        Query query = null;
+        Query query;
         List<T> list = null;
 
         try {
@@ -257,10 +257,10 @@ public class HibernateConnection {
             throw new NullPointerException("c is null");
         }
 
-        String key = null;
-        String value = null;
-        Query query = null;
-        List<T> list = null;
+        String key;
+        String value;
+        Query query;
+        List<T> list;
 
         try {
 
